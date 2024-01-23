@@ -9,3 +9,8 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
