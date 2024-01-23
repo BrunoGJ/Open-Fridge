@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Open Fridge</title>
@@ -21,15 +22,16 @@
     <h2>What ingredients do you have in your fridge?</h2>
 
     <div>
-      <form>
-        <label for="ing1">Ingredient 1:</label><br />
+      <form id="ingredientsForm">
+        <label for="ing1">Ingredients:</label><br />
         <input type="text" id="ing1" name="ing1" /><br />
-        <label for="ing2">Ingredient 2:</label><br />
-        <input type="text" id="ing2" name="ing2" /><br />
-        <label for="ing3">Ingredient 3:</label><br />
-        <input type="text" id="ing3" name="ing3" /><br />
-        <input type="submit" value="Submit" />
+        <button type="submit">"Get Recipes"</button>
       </form>
     </div>
+
+    <!-- Display results in cards -->
+    <div id="results" class="recipe-container"></div>
+
+    <script src="scripts.js"></script>
   </body>
 </html>
