@@ -5,7 +5,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Open Fridge</title>
-    <!-- ADD CSS LATER HERE <link rel= "styles" href ="styles.css"-->
   </head>
   <body>
     <h1>Welcome to Open Fridge</h1>
@@ -21,16 +20,18 @@
 
     <h2>What ingredients do you have in your fridge?</h2>
 
-    <div>
-      <form id="ingredientsForm">
-        <label for="ing1">Ingredients:</label><br />
-        <input type="text" id="ing1" name="ing1" /><br />
-        <button type="submit">"Get Recipes"</button>
+    <div class="form-controllers">
+      <form class="form-fields" id="ingredientsForm">
+        <div class="form-inputButton">
+          <label class="label" for="ing1"><h3>Ingredients:</h3></label><br />
+          <input type="text" id="ing1" name="ing1" /><br />
+          <button class="button-getRecipes" type="submit">"Get Recipes"</button>
+        </div>
       </form>
     </div>
 
     <!-- Display results in cards -->
-    <div cass="card-grid">
+    <div class="card-grid">
       <div id="results" class="recipe-container"></div>
     </div>
 

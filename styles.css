@@ -10,7 +10,67 @@
   border-radius: 8px;
 }
 
-.card-grid {
+.recipe-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  justify-items: center;
+}
+
+h1 {
+  max-width: 700px;
+  padding: 10px;
+  margin: auto;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  max-width: 700px;
+  padding: 10px;
+  margin: auto;
+  padding-bottom: 20px;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  max-width: 1000px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin: auto;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.form-controllers {
+  max-width: 300px;
+  padding: 20px;
+  margin: auto;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  color: rgb(105, 105, 105);
+}
+
+.form-inputButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
