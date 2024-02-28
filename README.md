@@ -1,4 +1,4 @@
-# Edamam API projetc.
+# Edamam API project.
 
 ## Purpose of the project
 
